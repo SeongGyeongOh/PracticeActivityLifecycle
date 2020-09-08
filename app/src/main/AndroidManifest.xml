@@ -10,15 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".Lab15_2Activity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"></activity>
-        <activity android:name=".DialogActivity"
-            android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 
 </manifest>
